@@ -5,7 +5,7 @@ const agentJSON = require('../ABIs/Agent.json');
 const patientJSON = require('../ABIs/Patient.json');
 const medicalHistoryJSON = require('../ABIs/MedicalHistory.json');
 const forge = require('node-forge'); 
-//const ethereumjs = require('ethereumjs-tx') 
+
 const { 
   insertMH: insertMH,
   updateMHfromDB, 
